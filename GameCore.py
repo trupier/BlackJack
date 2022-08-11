@@ -1,11 +1,17 @@
 import Deck as d
 
+
 def draw(player, deck):
     player.hit(deck)
     player.add_points()
 
 
 def start_game():
+    """
+    Function using to start game- game preparation.
+    Give a player a name, Deal cards.
+    :return:
+    """
     deck = d.Deck()
     deck.shufle()
     player_name = input("enter your name: ")
@@ -19,4 +25,4 @@ def start_game():
     draw(krupier, deck)
     print(p1.show_player())
     print(p1.show_hand())
-    return
+    

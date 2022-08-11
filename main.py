@@ -1,4 +1,8 @@
-import GameCore as gm
+# need to create a user text-interface
+# add other games like poker with multiplayer game
+
+
+import GameCore as GmCr
 
 if __name__ == '__main__':
-    gm.start_game()
+    GmCr.start_game()
