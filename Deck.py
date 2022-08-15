@@ -49,6 +49,9 @@ class Player:
     def show_player(self):
         return f"Player: {self.name}\nPoints: {self.points}"
 
+    def show_points(self):
+        return self.points
+
     def show_hand(self):
         return f"{self.name}'s hand: {self.hand}"
 
